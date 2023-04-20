@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1 id="h1">Changing the head</h1>
+        <button onclick='document.getElementById("h1").innerHTML="This is ok"'>ok</button><button onclick='document.getElementById("h1").innerHTML="This is not ok"'>not ok</button><br>
+        <p id="p">Changing the color of the paragraph by js</p>
+        <button onclick='document.getElementById("p").style.color="red"'>red</button><button onclick='document.getElementById("p").style.color="blue"'>blue</button><br>
+        <img id='img' src="hi.jpg">
+        <button onclick='document.getElementById("img").src="hi.jpg"'>Hi</button><button onclick='document.getElementById("img").src="hello.jpg"'>Hello</button><br>
+        <button id='button' onclick="button()">1</button>
+        <script>
+            var n=1
+            function button(){
+                n=n+1
+                document.getElementById("button").innerHTML=n;
+            }
+        </script>
+    </body>
+</html>

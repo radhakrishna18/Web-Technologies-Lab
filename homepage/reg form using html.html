@@ -1,0 +1,49 @@
+<html>
+    <body>
+        <div align="center"></div>
+        <h1 align="center"><font size="5px" color="yellow">REGISTRATION FORM</font></h1>
+        <form name="f1" method="get" action="/php"></form>
+        <table border=1 cellspacing=o cellpadding=5 width="450" height="450" align="center">
+            <tr>
+                <td><label>Username</label></td>
+                <td><input type="txt" name="Username" required></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="txt" name="Email" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="Gender" required>Male</input><input type="radio" name="Gender" required>Female</input></td>
+            </tr>
+            <tr>
+                <td><label for="religion">Religion</label></td>
+                <td><select name="religion" required><option value=1>Hindu</option><option value=2>Muslim</option><option value=3>Chirstian</option></select></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of birth</label></td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="lan">Languages</label></td>
+                <td><input type="checkbox" name="lan" required>English</input><input type="checkbox" name="lan" required>Hindi</input><input type="checkbox" name="lan" required>Telugu</input></td>
+            </tr>
+            <tr>
+                <td><label for="addr">Address</label></td>
+                <td><textarea rows="4" columns="15"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="pass"></input></td>
+            </tr>
+            <tr>
+                <td><label>Conform Password</label></td>
+                <td><input type="cpass"></input></td>
+            </tr>
+            <tr>
+                <td><input type="Submit" value="Submit"></input></td>
+                <td><input type="Reset" value="Reset"></input></td>
+            </tr>
+        </table>
+    </body>
+</html>
